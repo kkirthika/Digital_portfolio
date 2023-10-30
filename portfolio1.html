@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif; background-color: #fefefe;
+padding: 0;
+}
+header {
+background-color: #445FB3;
+color: #fff;
+text-align: center;
+padding: 2rem 0;
+position: relative;
+}
+.header-content h1 {
+font-size: 2.5rem;
+}
+img{
+
+height: 150px;
+width: 120px;
+ border-radius: 75%;
+    object-fit: cover;
+    position: absolute;
+    top: 35px;
+    left: 25%;
+}
+nav {
+background-color: #445FB3; 
+color: #fff;
+ text-align: center;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+nav ul li {
+display: inline;
+margin: 0 20px;
+}
+nav ul li a {
+text-decoration: none;
+color: #fff;
+}
+.section-content {
+background-color:
+padding: 2rem; margin: 1rem;
+border-radius: 20px;
+box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+text-align: center; padding: 1rem 8; background-color: #333; color: #fff;
+}
+ul {
+list-style-type: disc;
+padding-left: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+        <img src="Capture.PNG" align="left">
+        <div class="header-content">
+<h1>Kiruthika K</h1>
+<p>Final Year Computer Application Student </p>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">contact</a></li>
+<li><a href="#resume">resume</a></li>
+</ul>
+</nav>
+<section id="about">
+<div class="section-content">
+<h2>About Me</h2>
+<p>Hello Everyone! This is Kiruthika K, Computer Application Student.</p><br></p>
+</div>
+</section>
+<section id="education">
+<div class="section-content">
+<h2>Education</h2>
+<p><strong>Degree:</strong> Bachelor of Computer Application.</p>
+            <p><strong>University:</strong> Bharathiar University</p>
+            <p><strong>Batch:</strong>2021 - 2024</p><br>
+</div>
+</section>
+<section id="skills">
+<div class="section-content">
+<h2>Skills</h2>
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>Java</li>
+<li>Html</li><br>
+</ul>
+</div>
+</section>
+<section id="contact">
+<div class="section-content">
+<h2>contact</h2>
+            <p><strong>Ph.no:</strong> 912 345 6789</p>
+            <p><strong>E-mail:</strong> abcde@gmail</p><br>
+        </div>
+</section>
+<section id="resume">
+        <center>
+        <div class="section-content">
+            <h2>Resume</h2>
+            <a href="Kiruthika K.jpg"class="download-button">Download CV</a>
+        </div>
+    </center>
+    </section>
+<footer>
+<p>&copy; 2023 kiruthika k</p>
+</footer>
+<script>
+e.preventDefault();
+const targetId=this.getAttribute('href').substring(1); const targetElement =document.getElementById(targetId);
+if (targetElement) {
+window.scrollTo({
+top: targetElement.offsetTop,
+behavior: 'smooth'
+});
+});
+</script>
+</body>
+</html>
